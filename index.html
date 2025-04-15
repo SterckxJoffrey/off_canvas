@@ -338,7 +338,7 @@
             <p class="off_canvas_items">
                 Paiement
             </p>
-            <img src="./assets/x-solid.svg" alt="Image for closing the off_canvas" class="close_img"> 
+            <a href="#"><img src="./assets/x-solid.svg" alt="Image for closing the off_canvas" class="close_img" id="toggle"> </a>
         
         <div class="list-center"></div>
             <p class="off_canvas_items">
@@ -368,15 +368,8 @@
 
         
     </div>
-    <script>
-        const toggleBtn = document.getElementById('toggle');
-const content = document.getElementById('off_canvas');
 
-toggleBtn.addEventListener('click', () => {
-  content.classList.toggle('hidden');
-});
-
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
