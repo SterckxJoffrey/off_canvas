@@ -6,7 +6,7 @@
   
 .off_canvas {
     background-color: rgb(42, 42, 42);
-    
+    display: none;
     width: 30%;
     height: 100%;
     padding: 32px;
@@ -23,6 +23,12 @@
    
 
 }
+.off_canvas.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
 
 .close_img {
     height: 30px;
